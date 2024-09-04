@@ -1,0 +1,11 @@
+#example_caluculator
+calci = {
+    "add":lambda x,y:x+y,
+    "minus":lambda x,y:x-y,
+    "product":lambda x,y:x*y,
+    "division":lambda x,y:x/y,
+}
+print(calci['add'](5, 3))
+print(calci['subtract'](5, 3))
+print(calci['multiply'](5, 3))
+print(calci['divide'](5, 3))
